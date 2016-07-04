@@ -8,3 +8,4 @@ services:
       - "80:80"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
+      - "./webfonts.conf:/etc/nginx/conf.d/webfonts.conf:ro"
